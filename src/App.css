@@ -3,6 +3,11 @@
 }
 
 .App-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   min-height: 10vh;
   display: flex;
   flex-direction: row;
@@ -11,13 +16,19 @@
   padding: 0 2rem;
 }
 
+.App-header-title-link
+{
+  color: var(--dark-color);
+  text-decoration: none;
+}
+
 .App-header-title,
 .App-social {
   font-size: 2rem;
 }
 
 .App-main {
-  background-color: #0a0b20;
+  background-color: var(--dark-color);
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -34,5 +45,13 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: var(--link-color);
+}
+
+.App-description
+{
+  background-color: white;
+  padding-top: 10vh;
+  /* min-height: 90vh; */
+  color: black;
 }
