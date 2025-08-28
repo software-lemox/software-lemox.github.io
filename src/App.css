@@ -16,15 +16,14 @@
   padding: 0 2rem;
 }
 
-.App-header-title-link
-{
+.App-header-title-link {
   color: var(--dark-color);
   text-decoration: none;
 }
 
 .App-header-title,
 .App-social {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .App-main {
@@ -34,12 +33,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 1.5rem;
   color: white;
 }
 
-.App-main-title
-{
+.App-main-title {
   font-family: 'Cinzel', serif;
   font-size: calc(10px + 10vmin);
 }
@@ -48,9 +46,65 @@
   color: var(--link-color);
 }
 
-.App-description
-{
+.App-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: white;
   padding-top: 10vh;
   color: black;
+}
+
+.App-description-title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.App-description-background-image {
+  /* background-image: url(); */
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+  color: white;
+}
+
+.App-description-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-description-section-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-description-sub-title {
+  text-align: left;
+  padding: 0 20vw;
+  font-size: 2rem;
+}
+
+.App-description-text {
+  max-width: 20vw;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.App-description-inner {
+  padding: 0 2vw;
+}
+
+.App-steam-icon {
+  background-image: url('https://images.squarespace-cdn.com/content/5eb98d54a2c9a8275e6de2ab/7a4a67bc-dd7b-4acb-823f-7870d3050174/Steam+Logo+-+White.png?content-type=image%2Fpng');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 200px;
+  display: inline-block;
 }
