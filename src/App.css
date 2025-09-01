@@ -62,7 +62,7 @@
 }
 
 .App-description-background-image {
-  /* background-image: url(); */
+  background-image: url('https://raw.githubusercontent.com/software-lemox/software-lemox.github.io/refs/heads/main/public/screenshots/screenshot_20250629_215025.png');
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -84,9 +84,11 @@
 }
 
 .App-description-sub-title {
-  text-align: left;
+  font-style: italic;
+  text-align: center;
   padding: 0 20vw;
   font-size: 2rem;
+  color: var(--grey-color);
 }
 
 .App-description-text {
@@ -107,4 +109,39 @@
   height: 100px;
   width: 200px;
   display: inline-block;
+}
+
+.App-newsletter {
+  padding: 100px 30vh;
+}
+
+.App-newsletter-email {
+  padding: 0 15%;
+  display: grid;
+  grid-template-columns: 0.7fr 0.3fr;
+}
+
+.App-newsletter-email-message {
+  font-style: italic;
+  margin: 0;
+  color: var(--grey-color);
+}
+
+.App-newsletter-email-input {
+  height: 50px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.App-newsletter-email-button {
+  font-size: 1rem;
+  background-color: var(--dark-color);
+  color: white;
+  border-radius: none;
+  border: none;
+}
+
+.App-newsletter-email-button:hover {
+  cursor: pointer;
+  background-color: var(--grey-color);
 }
