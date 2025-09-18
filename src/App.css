@@ -26,6 +26,46 @@
   font-size: 1.5rem;
 }
 
+.App-social > a > img {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid var(--dark-color);
+  padding: 6px 6px;
+  margin: 5px 5px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.App-social > a > img:hover {
+  background-color: azure;
+  border: 1px solid black;
+}
+
+.App-social-x {
+  width: 16px;
+}
+
+.App-social-discord {
+  width: 18px;
+}
+
+.App-social-instagram {
+  width: 15px;
+}
+
+.App-social-reddit {
+  width: 20px;
+}
+
+.App-social-youtube {
+  width: 18px;
+}
+
+.App-social-gmail {
+  width: 18px;
+}
+
 .App-main {
   background-color: var(--dark-color);
   min-height: 90vh;

@@ -1,0 +1,21 @@
+.popMessageSucceeded {
+    color: var(--green);
+    font-weight: bold;
+}
+
+.popMessageMessage, .popMessageXButton {
+    margin: 10px;
+}
+
+.popMessageXButton {
+    background-color: white;
+    border: 1px solid var(--dark-color);
+    color: var(--dark-color);
+    font-weight: bolder;
+    padding: 4px 7px;
+}
+
+.popMessageXButton:hover {
+    cursor: pointer;
+    background-color: azure;
+}
